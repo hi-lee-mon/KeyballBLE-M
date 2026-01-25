@@ -58,10 +58,10 @@
 
         default_layer {
             bindings = <
-&kp TAB    &kp Q      &kp W     &kp E  &kp R      &kp T                               &kp Y           &kp U  &kp I      &kp O    &kp P          &kp MINUS
-&kp LGUI   &kp A      &kp S     &kp D  &kp F      &kp G   &mkp MB2    &kp UP_ARROW    &kp H           &kp J  &kp K      &kp L    &kp SEMICOLON  &kp COMMA
-&kp LSHFT  &kp Z      &kp X     &kp C  &kp V      &kp B   &mkp MB1    &kp DOWN_ARROW  &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RSHFT
-&mo 2      &kp LCTRL  &kp LALT  &mo 1  &kp SPACE  &trans  &mo 5       &kp ENTER       &kp LANGUAGE_1                             &trans         &mo 3
+&kp TAB    &kp Q      &kp W     &kp E  &kp R   &kp T                                  &kp Y           &kp U  &kp I      &kp O    &kp P          &kp MINUS
+&kp LGUI   &kp A      &kp S     &kp D  &kp F   &kp G      &mkp MB2    &kp UP_ARROW    &kp H           &kp J  &kp K      &kp L    &kp SEMICOLON  &kp COMMA
+&kp LSHFT  &kp Z      &kp X     &kp C  &kp V   &kp B      &mkp MB1    &kp DOWN_ARROW  &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RSHFT
+&mo 2      &kp LCTRL  &kp LALT  &mo 1  &trans  &kp SPACE  &mo 5       &kp ENTER       &kp LANGUAGE_1                             &trans         &mo 3
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -72,7 +72,7 @@
 &trans     &trans     &trans    &trans  &trans    &trans                              &kp EQUAL       &kp N9          &kp NUMBER_0  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp C_VOLUME_UP
 &kp LGUI   &trans     &trans    &trans  &kp BSPC  &kp DELETE     &trans    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &kp MINUS          &kp C_VOLUME_DOWN
 &kp LSHFT  &trans     &trans    &trans  &trans    &kp BACKSLASH  &trans    &trans     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END           &trans             &trans
-&trans     &kp LCTRL  &kp LALT  &trans  &trans    &trans         &trans    &kp ENTER  &kp LANG2                                                       &trans             &trans
+&trans     &kp LCTRL  &kp LALT  &trans  &trans    &kp SPACE      &trans    &kp ENTER  &kp LANG2                                                       &trans             &trans
             >;
         };
 
@@ -81,16 +81,16 @@
 &trans     &kp MINUS                   &trans           &trans           &trans           &trans                                            &trans  &kp N7  &kp N8  &kp N9  &trans  &kp MINUS
 &kp LGUI   &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &trans           &trans      &kp LC(LA(KP_NUMBER_0))    &trans     &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
 &kp LSHFT  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL                  &trans     &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-&trans     &kp LCTRL                   &kp LALT         &trans           &trans           &trans      &trans                     &kp ENTER  &kp N0                          &trans  &trans
+&trans     &kp LCTRL                   &kp LALT         &trans           &trans           &kp SPACE   &trans                     &kp ENTER  &kp N0                          &trans  &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESC  &kp F1  &kp F2   &kp F3   &kp F4   &trans                    &kp LANGUAGE_1  &kp LANGUAGE_2  &kp LANGUAGE_3  &kp LANGUAGE_4  &trans  &trans
-&trans   &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans    &trans  &kp LANGUAGE_5  &kp LANGUAGE_6  &kp LANGUAGE_7  &kp LANGUAGE_8  &trans  &trans
-&trans   &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans    &trans  &kp LANGUAGE_9  &trans          &trans          &trans          &trans  &trans
-&trans   &trans  &trans   &trans   &trans   &trans  &trans    &trans  &trans                                                          &trans  &trans
+&kp ESC    &kp F1     &kp F2    &kp F3   &kp F4   &trans                          &kp LANGUAGE_1  &kp LANGUAGE_2  &kp LANGUAGE_3  &kp LANGUAGE_4  &trans  &trans
+&kp LGUI   &kp F5     &kp F6    &kp F7   &kp F8   &trans     &trans    &trans     &kp LANGUAGE_5  &kp LANGUAGE_6  &kp LANGUAGE_7  &kp LANGUAGE_8  &trans  &trans
+&kp LSHFT  &kp F9     &kp F10   &kp F11  &kp F12  &trans     &trans    &trans     &kp LANGUAGE_9  &trans          &trans          &trans          &trans  &trans
+&trans     &kp LCTRL  &kp LALT  &trans   &trans   &kp SPACE  &trans    &kp ENTER  &trans                                                          &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
