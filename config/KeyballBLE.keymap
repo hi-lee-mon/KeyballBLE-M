@@ -61,7 +61,7 @@
 &kp TAB    &kp Q      &kp W     &kp E  &kp R   &kp T                                  &kp Y           &kp U  &kp I      &kp O    &kp P          &kp MINUS
 &kp LGUI   &kp A      &kp S     &kp D  &kp F   &kp G      &mkp MB2    &kp UP_ARROW    &kp H           &kp J  &kp K      &kp L    &kp SEMICOLON  &kp COMMA
 &kp LSHFT  &kp Z      &kp X     &kp C  &kp V   &kp B      &mkp MB1    &kp DOWN_ARROW  &kp N           &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RSHFT
-&mo 2      &kp LCTRL  &kp LALT  &mo 1  &trans  &kp SPACE  &mo 5       &kp ENTER       &kp LANGUAGE_2                             &trans         &mo 3
+&mo 2      &kp LCTRL  &kp LALT  &mo 1  &trans  &kp SPACE  &mo 5       &kp ENTER       &kp LANGUAGE_1                             &trans         &mo 3
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -72,7 +72,7 @@
 &trans     &trans     &trans    &trans  &trans    &trans                             &kp EQUAL       &kp N9          &kp NUMBER_0  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS
 &kp LGUI   &trans     &trans    &trans  &kp BSPC  &kp DELETE  &trans      &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &kp MINUS          &kp C_VOLUME_UP
 &kp LSHFT  &trans     &trans    &trans  &trans    &kp GRAVE   &kp BSLH    &trans     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END           &trans             &kp C_VOLUME_DOWN
-&trans     &kp LCTRL  &kp LALT  &trans  &trans    &kp SPACE   &trans      &kp ENTER  &kp LANGUAGE_1                                                  &trans             &trans
+&trans     &kp LCTRL  &kp LALT  &trans  &trans    &kp SPACE   &trans      &kp ENTER  &kp LANGUAGE_2                                                  &trans             &trans
             >;
         };
 
